@@ -47,8 +47,39 @@
         </div>
     </div>
     <div data-role="content">
-    	
-    </div>
+        <!-- <div id="summary" class="ui-grid-a summary">
+            <div class="ui-block-a ">
+                Mood
+            </div>
+            <div class="ui-block-b mood">
+                Sad
+            </div>
+            <div class="ui-block-a">
+                Acceleration
+            </div>
+            <div class="ui-block-b accel">
+                Some Accel
+            </div>
+            <div class="ui-block-a">
+                compass
+            </div>
+            <div class="ui-block-b compass">
+                some compass
+            </div>
+            <div class="ui-block-a">
+                Geolocation
+            </div>
+            <div class="ui-block-b geo">
+                some geo
+            </div>
+        </div> -->
+        <table>
+            <tr><td>Mood</td><td class="mood"></td></tr>
+            <tr><td>Accelerometer</td><td class="accel"></td></tr>
+            <tr><td>Geolocation</td><td class="geo"></td></tr>
+            <tr><td>Compass</td><td class="compass"></td></tr>
+        </table>	
+    </div> 
 </div>
 
 <!-- control page -->
@@ -80,6 +111,13 @@
     		<img src="images/forward.png" class="forward" />
     		<img src="images/back.png" class="back" />
     	</div>
+        <div class="speech">
+            <textarea class="speechtext"></textarea>
+            <p class="para">Speak it Out!</p>
+            <textarea class="moodtext"></textarea>
+            <p class="para">Set the Mood!</p>
+            <!-- <input type="button" class="send" value="send"/> -->
+        </div>
     </div>
 </div>
 <script src="js/app.js"> </script>

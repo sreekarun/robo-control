@@ -1,3 +1,7 @@
+ul, li{
+	list-style: none;
+}
+
 .control{
 	width: 50%;
 	margin: 10% auto;
@@ -11,3 +15,44 @@
 	cursor : pointer;
 }
 
+
+table{
+	width:90%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+table tr{
+
+}
+
+table tr td{
+	padding: 10px;
+	border: 1px solid blue;	
+}
+
+.active{
+	color: red;	
+}
+.speechtext{
+	width : 55% !important;
+	height : 80px !important;
+	margin : 0 auto !important;
+}
+.send{
+	width : 20% !important;
+	height : 80px !important;
+	margin : 0 auto !important;
+}
+.para{
+	width : 130px;
+	margin : 10px auto;
+	color : blue;
+	font-size : 20px;
+}
+.moodtext{
+	width : 25% !important;
+	height : 30px !important;
+	margin : 0 auto !important;
+	overflow : hidden;
+}
